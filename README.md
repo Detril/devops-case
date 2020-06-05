@@ -69,6 +69,7 @@ $ npm run build
 ```
 $ pip install -r requirements.txt
 ```
+- O `db` precisa estar configurado com a database `example`, com usuário `example` e senha `example`. Se for usar outros valores, precisará editar o `.env`.
 
 ### Bônus
 Além de rodar o projeto em http://localhost, você pode configurar o acesso por TLS em https://localhost (na porta 443 mesmo).
