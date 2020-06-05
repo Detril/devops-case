@@ -45,7 +45,7 @@ Como comentei, você pode criar `Dockerfiles` onde achar necessário, recomendo 
 ### Dicas e sugestões
 
 - Em teoria, a única coisa que você precisa fazer é criar o `docker-compose.yml` e `Dockerfiles`. Todo o código já está pronto pra funcionar, desde que você use os nomes de serviços que foram pedidos. Não deveria ser necessário editar nenhum dos arquivos existentes (é claro que você pode editar, mas saiba que não é uma pegadinha, tudo funciona)
-- Dentro da pasta `frontend`, já existe um arquivo de configuração pro Nginx, o `default.conf` que você pode usar sem alterações. Nesse arquivo, também dá pra descobrir qual a porta que o [FPM](https://php-fpm.org/) precisa rodar no serviço do `backend`.
+- Dentro da pasta `frontend`, já existe um arquivo de configuração pro Nginx, o `default.conf` que você pode usar sem alterações. Nesse arquivo, também dá pra descobrir qual a porta que o [FPM](https://php-fpm.org/) precisa rodar no serviço do `backend`. Também dá pra saber qual diretório usar como `root` no `frontend` e `backend`.
 - Todas as portas dos serviços podem ser mantidas como padrão, em nenhum lugar é usado uma porta diferente do esperado.
 - Ao rodar o _python script_ em um serviço, tem a opção `-u` (_unbuffered_). Se rodar sem essa opção, `print`'s podem não aparecer nos logs.
 - Existe a pasta `data/db` e `data/redis`, que recomendo usar de volumes para os respectivos serviços.
