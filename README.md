@@ -83,7 +83,7 @@ Estas perguntas não precisam ser respondidas dentro do projeto, é apenas para 
 for apresentar a sua solução.
 - Você entendeu como funciona a estrutura geral? Consegue descrever o que acontece
 no momento em que você adiciona um link e clica no botão de adicionar?
-- Teve algo novo que você aprendeu neste projeto? O que foi que você acho
+- Teve algo novo que você aprendeu neste projeto? O que foi que você achou
 mais difícil?
 - Quais sugestões e melhorias você teria para o projeto? Existe algum problema
 mais sério que você encontrou?
