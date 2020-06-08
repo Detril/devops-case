@@ -27,7 +27,9 @@ Podemos acessar http://localhost e ver o sistema funcionando sem problemas, adic
 Como você irá resolver é aberto, pode usar um ou
 mais `Dockerfiles` pra configuração, pode utilizar imagens já prontas, ou criar as suas (desde que estejam públicas).
 
-Como já dito, o objetivo é que o sistema rode sem problemas.
+Como já dito, o objetivo é que o sistema rode sem problemas, igual ao exemplo abaixo:
+
+![Exemplo](img/example.gif)
 
 
 ## Como começar
@@ -75,3 +77,13 @@ $ pip install -r requirements.txt
 Além de rodar o projeto em http://localhost, você pode configurar o acesso por TLS em https://localhost (na porta 443 mesmo).
 
 Não é necessário utilizar um certificado válido, verificado por uma _Certificate Authority_. Basta utilizar um _self signed certificate_ gerado por [OpenSSL](https://www.openssl.org/) ou similar.
+
+### Perguntas
+Estas perguntas não precisam ser respondidas dentro do projeto, é apenas para conversarmos durante a discussão, quando
+for apresentar a sua solução.
+- Você entendeu como funciona a estrutura geral? Consegue descrever o que acontece
+no momento em que você adiciona um link e clica no botão de adicionar?
+- Teve algo novo que você aprendeu neste projeto? O que foi que você acho
+mais difícil?
+- Quais sugestões e melhorias você teria para o projeto? Existe algum problema
+mais sério que você encontrou?
